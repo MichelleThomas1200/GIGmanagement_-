@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GIG.Entity\GIG.Entity.csproj" />
+    <ProjectReference Include="..\GIG.Exception\GIG.Exceptions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\PUNITH E\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\PUNITH E\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\PUNITH E\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\PUNITH E\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\PUNITH E\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libzstd.dylib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\PUNITH E\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libzstd.dylib" />
+  </ItemGroup>
+
+</Project>

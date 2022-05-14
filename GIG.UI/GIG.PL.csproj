@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>GIG.UI.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GIG.BL\GIG.BL.csproj" />
+    <ProjectReference Include="..\GIG.DBA\GIG.DAL.csproj" />
+    <ProjectReference Include="..\GIG.Entity\GIG.Entity.csproj" />
+    <ProjectReference Include="..\GIG.Exception\GIG.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>
